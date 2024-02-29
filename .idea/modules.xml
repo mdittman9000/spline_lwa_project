@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Antenna Theory/.idea/Antenna Theory.iml" filepath="$PROJECT_DIR$/../Antenna Theory/.idea/Antenna Theory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ECE835 Electromagnetic Fields and Waves/.idea/ECE835 Electromagnetic Fields and Waves.iml" filepath="$PROJECT_DIR$/../ECE835 Electromagnetic Fields and Waves/.idea/ECE835 Electromagnetic Fields and Waves.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../EM_grapher/.idea/EM_grapher.iml" filepath="$PROJECT_DIR$/../EM_grapher/.idea/EM_grapher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Misc/.idea/Misc.iml" filepath="$PROJECT_DIR$/../Misc/.idea/Misc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PHY841 Electrodynamics/.idea/PHY841 Electrodynamics.iml" filepath="$PROJECT_DIR$/../PHY841 Electrodynamics/.idea/PHY841 Electrodynamics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spline LWA project.iml" filepath="$PROJECT_DIR$/.idea/Spline LWA project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../planar LWA designer/.idea/planar LWA designer.iml" filepath="$PROJECT_DIR$/../planar LWA designer/.idea/planar LWA designer.iml" />
+    </modules>
+  </component>
+</project>
