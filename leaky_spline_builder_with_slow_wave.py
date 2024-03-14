@@ -57,7 +57,17 @@ def required_periodicity_for_angle(angle_to_bend):
     # curve-fit-6
     #return 6.9604490558418082 + (7.3719152042775876*pow(10, -2)*angle_to_bend) + (8.7864577271711940*(pow(10, -4)*(angle_to_bend**2))) + (5.0449252349248393*(pow(10, -6))*(angle_to_bend**3))
 
-    return  6.592387738269 + (6.502548726*pow(10, -2)*angle_to_bend) + (6.82996459*(pow(10, -4)*(angle_to_bend**2))) + (3.36637154*(pow(10, -6))*(angle_to_bend**3))
+    # WHAT IN THE HELL IS THIS ONE??? h = 3.0mm, er = 3.05
+    #return  6.592387738269 + (6.502548726*pow(10, -2)*angle_to_bend) + (6.82996459*(pow(10, -4)*(angle_to_bend**2))) + (3.36637154*(pow(10, -6))*(angle_to_bend**3))
+
+    # curve-fit-11
+    #return 6.63245188 + (6.742907*pow(10, -2)*angle_to_bend) + (7.1589545658*(pow(10, -4)*(angle_to_bend**2))) + (3.5534671527*(pow(10, -6))*(angle_to_bend**3))
+
+    # Curve-fit-12
+    #return 6.951678 + (7.26906919*pow(10, -2)*angle_to_bend) + (7.483190*(pow(10, -4)*(angle_to_bend**2))) + (3.21570266*(pow(10, -6))*(angle_to_bend**3))
+
+    # Curve-fit-13
+    return 7.3118623085018557 + (7.7226269233673053 * pow(10, -2) * angle_to_bend) + (7.9873519666050848 * (pow(10, -4) * (angle_to_bend ** 2))) + (3.6470448267764143 * (pow(10, -6)) * (angle_to_bend ** 3))
 
 def find_x_y_coord_corresponding_to_arc_length(current_arc_length, arc_length_array, x_coordinates, y_coordinates):
     """
@@ -94,10 +104,6 @@ def find_x_y_coord_corresponding_to_arc_length(current_arc_length, arc_length_ar
 # First spline example
 #node_point_x = (0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150)
 #node_point_y = (0, 11.09, 18.47, 22.2, 22.58, 20, 15.128, 8.75, 1.865, -4.6778, -10, -13.405, -14.365, -12.550, -7.78,0)
-
-#node_point_x = (0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150)
-#node_point_y = (0, 11.09, 18.47, 22.2, 22.58, 20, 15.128, 8.75, 1.865, -4.6778, -10, -13.405, -14.365, -12.550, -7.78,0)
-
 
 # USE THESE
 node_point_x = (15, 45, 75, 105, 135)
@@ -231,7 +237,7 @@ print("Interpolated x and y points are : ", interpolated_x, interpolated_y)
 first_strip_width = 2 #mm
 slot_width = 2 #mm
 antenna_radius = 329.54 #mm
-number_of_slots = 5
+number_of_slots = 28
 
 ######### DESIRED BENDING ANGLE #########
 desired_angle = 0   # Desired angle to bend to
